@@ -1,18 +1,11 @@
-def inverter_string(s):
-    # Inicializa uma string vazia para armazenar a string invertida
-    string_invertida = ""
+5. Descobrir qual interruptor controla qual lâmpada
+Solução:
 
-    # Itera pelos caracteres da string de trás para frente
-    for i in range(len(s) - 1, -1, -1):
-        # Adiciona cada caractere à string invertida
-        string_invertida += s[i]
+Ligue o primeiro interruptor e deixe-o ligado por alguns minutos. Desligue-o.
+Ligue o segundo interruptor e vá até a sala das lâmpadas.
+Agora, ao chegar à sala das lâmpadas:
 
-    # Retorna a string invertida
-    return string_invertida
-
-
-# Teste da função com uma string específica
-string_original = "Python"
-string_invertida = inverter_string(string_original)
-print("String original:", string_original)
-print("String invertida:", string_invertida)
+A lâmpada que estiver acesa está ligada ao segundo interruptor.
+A lâmpada que estiver apagada, mas quente, está ligada ao primeiro interruptor (que você ligou e depois desligou).
+A lâmpada que estiver apagada e fria está ligada ao terceiro interruptor (que não foi ligado).
+pronto.
