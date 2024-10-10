@@ -1,13 +1,17 @@
-mensagem = """
-Na primeira ida à sala das lâmpadas, ligue o primeiro interruptor e deixe-o ligado por um tempo, depois desligue-o e ligue o segundo interruptor. Entre na sala das lâmpadas.
-Observe as condições:
-- Se uma lâmpada estiver acesa, ela está conectada ao último interruptor que você ligou.
-- Se a lâmpada estiver apagada, mas quente ao toque, ela está conectada ao primeiro interruptor.
-- Se a lâmpada estiver apagada e fria, ela está conectada ao primeiro interruptor que você não ligou.
-Na segunda ida à sala das lâmpadas, teste a lâmpada que está quente:
-- Se estiver acesa, o interruptor associado a ela é o primeiro.
-- Se estiver apagada, o interruptor associado a ela é o segundo.
-O interruptor não testado é o terceiro interruptor.
-"""
+a) 1, 3, 5, 7, 9
+(Próximo número: 9 - sequência de números ímpares)
 
-print(mensagem)
+b) 2, 4, 8, 16, 32, 64, 128
+(Próximo número: 128 - potências de 2)
+
+c) 0, 1, 4, 9, 16, 25, 36, 49
+(Próximo número: 49 - quadrados dos números inteiros)
+
+d) 4, 16, 36, 64, 100
+(Próximo número: 100 - quadrados dos números pares: 2², 4², 6², 8², 10²)
+
+e) 1, 1, 2, 3, 5, 8, 13
+(Próximo número: 13 - sequência de Fibonacci)
+
+f) 2, 10, 12, 16, 17, 18, 19, 20
+(Próximo número: 20 - sequência crescente com variação)
